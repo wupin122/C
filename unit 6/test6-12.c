@@ -17,7 +17,7 @@ void mat_mul(const int a[3][4],const int b[4][3],int c[3][3])
 }
 int main(int argc, char const *argv[])
 {
-    int a[3][4],b[4][3],c[3][3];
+    int a[3][4],b[4][3],c[3][3]={0};
     printf("请输入3行4列的数组。\n");
     for (int i = 0; i < 3; ++i)
         for (int j = 0; j < 4; ++j)
